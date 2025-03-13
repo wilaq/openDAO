@@ -1,0 +1,20 @@
+{
+  "canisters": {
+    "DAO": {
+      "main": "src/DAO/DAO.mo",
+      "type": "motoko"
+    },
+    "neuron_snapshot": {
+      "main": "src/neuron_snapshot/neuronSnapshot.mo",
+      "type": "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": "mops sources"
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
